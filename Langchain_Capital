@@ -1,0 +1,12 @@
+from langchain_ollama import OllamaLLM
+
+def main():
+    # Initialize the Ollama model
+    llm = OllamaLLM(model="mistral")  # Replace with your local model name
+    
+    # Run a simple query using the new `.invoke()` method
+    response = llm.invoke("What is the capital of France?")
+    print(response)
+
+if __name__ == "__main__":
+    main()
