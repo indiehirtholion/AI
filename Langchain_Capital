@@ -5,7 +5,7 @@ def main():
     llm = OllamaLLM(model="mistral")  # Replace with your local model name
     
     # Run a simple query using the new `.invoke()` method
-    response = llm.invoke("What is the capital of France?")
+    response = llm.invoke("What is the capital of Canada?")
     print(response)
 
 if __name__ == "__main__":
