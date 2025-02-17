@@ -1,3 +1,7 @@
+#pip install langchain langchain-community
+#pip install --upgrade langchain langchain-community
+#pip install -U langchain-ollama
+
 from langchain_ollama import OllamaLLM
 
 def main():
